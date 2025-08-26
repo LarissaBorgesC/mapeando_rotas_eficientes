@@ -46,18 +46,18 @@ O algoritmo de Dijkstra calcula as distâncias mínimas e os caminhos a partir d
      - Distância mínima a partir da origem.
      - Caminho correspondente.
 5. **Exemplo de Saída** (para origem `D`):
-   Escolha o vértice de origem:
-   0: D
-   1: A
-   2: B
-   3: C
-   4: E
-   5: F
-   Nos informe o número do vértice de origem (0 a 5): 0   Executando Dijkstra a partir de D:
-   Vértice    Distância    Caminho
-   D          0            D
-   A          2            D -> A
-   B          4            D -> B
-   C          3            D -> A -> C
-   E          6            D -> B -> E
-   F          7            D -> A -> C -> F
+   -  Escolha o vértice de origem:
+      - 0: D
+      - 1: A
+      - 2: B
+      - 3: C
+      - 4: E
+      - 5: F
+   - Nos informe o número do vértice de origem (0 a 5): 0   Executando Dijkstra a partir de D:
+      - Vértice   - Distância   - (Caminho)
+      - D        -  0           - (D)
+      - A        - 2            - (D -> A)
+      - B        -  4           - (D -> B)
+      - C        -  3           - (D -> A -> C)
+      - E        -  6           - (D -> B -> E)
+      - F        -  7           - (D -> A -> C -> F)
